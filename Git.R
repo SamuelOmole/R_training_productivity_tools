@@ -22,8 +22,9 @@ git pull # equivalent to git fetch + git merge
 
 # an example of the steps followed to initialise a github repo is shown below; this can also be done in Rstudio
 
+# this is just an example
 cd ~/projects/murders
-git init # initialise the local repo
+git init # initialise the local repo as the directory above
 git add README.txt # staging 
 git commit -m "First commit. Adding README.txt file just to get started"
 git remote add origin "githuburl" # to link the local and upstream repo
